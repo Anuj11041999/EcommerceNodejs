@@ -61,6 +61,7 @@ sequelize
     
   })
   .then(cart=>{
+    console.log(cart);
     app.listen(3000);
   })
   .catch(err => {
